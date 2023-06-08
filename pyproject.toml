@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "notifications-system"
+version = "0.1.0"
+description = ""
+authors = ["Ilia Kaziamov <kaziamov@outlook.com>"]
+readme = "README.md"
+packages = [{include = "notifications_system"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sqlalchemy = "^2.0.15"
+asyncpg = "^0.27.0"
+python-dotenv = "^1.0.0"
+fastapi = "^0.96.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
